@@ -71,9 +71,20 @@ let UnlockStage6 = () => {
     }
 let UnlockStage7 = () => {
         let ele = document.getElementById('container');
-        ele.innerHTML += 'I warned you...<br><br>';
+        ele.innerHTML += 'What is wrong with you?<br><br>';
     }
-
+let UnlockStage8 = () => {
+        let ele = document.getElementById('container');
+        ele.innerHTML += '...<br><br>';
+    }
+let UnlockStage9 = () => {
+        let ele = document.getElementById('container');
+        ele.innerHTML += '...<br><br>';
+    }
+let UnlockStage9 = () => {
+        let ele = document.getElementById('container');
+        ele.innerHTML += 'Go play infscroll.github.io or funnigameslol.github.io instead.<br><br>';
+    }
 
 
 
@@ -102,6 +113,12 @@ setInterval(function() {
 				}
 				if (time == minute * 7) {
 				UnlockStage7()
+				if (time == minute * 8) {
+				UnlockStage8()
+				if (time == minute * 9) {
+				UnlockStage9()
+				if (time == minute * 10) {
+				UnlockStage10()
 				}
 			}, 1000);
 </script>
